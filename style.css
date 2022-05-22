@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main .container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6%;
+    align-items: center;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    font-family: Noto Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-decoration: none;
+color: #2C2C2C;
+position: relative;
+left: 20px;
+}
+main img{
+    height: 90%;
+    margin-top: -32px;
+}
+.fotoitext{
+    display: flex;
+    justify-content: space-between;
+}
+.places{
+    display: flex;
+    margin-top: 100px;
+}
+.places .text>h1{
+    width: 419px;
+    height: 116px;
+    font-family: Noto Serif;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+color: #2C2C2C;
+}
+.places .text>p{
+    width: 420px;
+    height: 71px;
+    font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #A79997;
+}
+.places .text>button{
+    color: white;
+    background: #FF715B;
+    width: 195px;
+    height: 64px;
+    text-align: center;
+  
+}
+.lighth0use{
+    display: flex;
+    margin: 20%;
+    height: 100%;
+}
+.lighth0use .left{
+    display: flex;
+    margin-left: -300px;
+}
+.lighth0use .right > h1{
+    text-align: center;
+    font-family: Noto Serif;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+color: #2C2C2C;
+width: 690px;
+height: 116px;
+}
+.lighth0use .right{
+    margin: 20px;
+}
+.lighth0use .left .second{
+    width: 570px;
+    height: 700px;
+}
+.lighth0use .left .first{
+    width: 54px;
+    height: 54px;
+    position: relative;
+    bottom: -235px;
+    left: -35px;
+}
+.lighth0use .left .back{
+    width: 170px;
+    height: 172px;
+    position: relative;
+    top: 590px;
+    left: -600px;
+    z-index: auto;
+}
+.lighth0use .left .backw{
+    width: 170px;
+    height: 172px;
+    position: relative;
+    top: -73px;
+    left: -254px;
+    z-index: auto;
+}
+.destination{
+    height: 100vh;
+}
+.destination>h1{
+    text-align: center;
+    font-family: Noto Serif;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+
+color: #2C2C2C;
+}
+.destination div img{
+    display: inline-block;
+    position: relative;
+    top: 248px;
+}
+.destination>div>.vverh{
+    position: relative;
+    top: 20px;
+}
+.destination>.roza{
+    position: relative;
+    top: -550px;
+    left: 935px;
+}
+.destination>.blue{
+    position: relative;
+    top: -550px;
+    left: 159px;
+}
+.destination>button{
+    text-align: center;
+    color: white;
+    background: #FF715B;
+    width: 240px;
+    height: 64px;
+    position: relative;
+    right: -260px;
+}
+.otzyv{
+    width: 1560px;
+    height: 729px;
+    margin: 255px;
+    position: relative;
+    left: -250px;
+    top: 50px;
+}
+.apps{
+ height: 100%;
+ width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer .right{
+    display: flex;
+    justify-content: space-between;
+}
+footer .right div{
+    display: flex;
+}
+footer>.right>span>h1{
+    margin-left: 8px;
+}
+ol>li{
+    list-style-image: url(./img/Rectangle\ 34.png);
+    margin-top: 5px;
+    vertical-align: 20px;
+}
+footer .right .news>button{
+    width: 200px;
+    height: 64px;
+    background: #FF715B;
+    color: white;
+}
+footer .left span {
+    display: flex;
+}
+footer .left span>img{
+    margin-bottom: 10px;
+    width: 22px;
+    height: 18px;
+}
+footer .left p,footer .right a{
+    font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 42px;
+text-decoration: none;
+color: #A79997;
+}
+.btn{
+    width: 200px;
+    height: 64px;
+    background: #FF715B;
+    color: white;
+}
+footer .id{
+    width: 400px;
+    height: 60px;
+    
+background: #F8F8F8;
+border: 1px solid #F5EBE9;
+box-sizing: border-box;
+
+}
+.footer2>h2{
+    width: 452px;
+    height: 26px;
+    font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #A79997;
+}
+.footer2 h2>span{
+    color: red;
+}
